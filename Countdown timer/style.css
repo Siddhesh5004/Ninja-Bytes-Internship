@@ -4,13 +4,12 @@ body {
     text-align: center;
     background-color: #131313;
     font-family: 'Poppins', sans-serif;
-    background-image: url(./bgimg.jpg);
-    background-position: center;
+    background-color: #f9f3f3;
 }
 
 h1 {
-    color: #F5F5F5;
-    font-size: 40px;
+    color: #020202;
+    font-size: 50px;
 }
 
 table {
@@ -18,21 +17,26 @@ table {
 }
 
 th {
-    color: #FFFFFF;
+    color: #0e0e0e;
+    font-size: 20px;
+}
+td{
+    font-size: 30px;
 }
 
 input {
     font-size: 20px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 button {
     min-width: 120px;
-    margin: 20px 10px;
+    margin: 33px 18px;
     padding: 10px;
     font-size: 20px;
-    background-color: #FFFFFF;
+    background-color: #070707;
+    color: #f5f0f0;
     border-radius: 5px;
     font-weight: 600;
 }
@@ -43,15 +47,15 @@ button {
 }
 
 .heading {
-    color: #F5F5F5;
+    color: #0f0e0e;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 .time {
-    background-color: #090909;
-    color: #FFFFFF;
+    background-color: #070707;
+    color: #fcf9f9;
     font-size: 100px;
-    width: 150px;
+    width: 120px;
     margin: 0 10px;
 }

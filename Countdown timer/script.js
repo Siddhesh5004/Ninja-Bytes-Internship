@@ -3,15 +3,15 @@ window.onload = () => {
     document.querySelector('#reset').onclick = reset;
 }
 
-function start () {
+function start() {
     const date = document.querySelector("#date").value;
     const time = document.querySelector("#time").value;
 
     const stop = document.querySelector('#stop');
-    
+
     const endTime = new Date(date + " " + time);
 
-    const interval = setInterval(() =>  startTime(endTime), 1000);
+    const interval = setInterval(() => startTime(endTime), 1000);
 
     stop.addEventListener('click', () => {
         clearInterval(interval);
