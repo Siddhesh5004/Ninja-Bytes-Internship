@@ -4,6 +4,8 @@ body {
     text-align: center;
     background-color: #131313;
     font-family: 'Poppins', sans-serif;
+    background-image: url(./bgimg.jpg);
+    background-position: center;
 }
 
 h1 {
