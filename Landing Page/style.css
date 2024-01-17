@@ -27,11 +27,12 @@ header{
 }
 .logo{
     position: relative;
-    max-width: 70px;   
+    max-width: 80px;   
 }
 header ul{
-    position: relative;
+    position: left;
     display: flex;
+    
 }
 header ul li{
     list-style: none;
@@ -42,6 +43,7 @@ header ul li a{
     font-weight: bolder;
     margin-left: 40px;
     text-decoration: none;
+    
 }
 
 
