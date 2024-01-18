@@ -12,12 +12,14 @@
 <body>
     <div class="header" id="header">
         <nav>
-            <img src="logo.png" class="logo">
+            <img src="./logo.png" class="logo">
             <ul>
                 <li><a href="#" id="models">Model S</a></li>
                 <li><a href="#" id="model3">Model 3</a></li>
                 <li><a href="#" id="modelx">Model X</a></li>
                 <li><a href="#" id="modely">Model Y</a></li>
+                <li><a href="#" id="modelz">Roadster</a></li>
+                <li><a href="#" id="modelw">Cyber-Truck</a></li>
             </ul>
             <a href="#" class="btn"> Book Now</a>
         </nav>
@@ -48,27 +50,36 @@
         var m3=document.getElementById("model3");
         var mx=document.getElementById("modelx");
         var my=document.getElementById("modely");
+        var mz=document.getElementById("modelz");
+        var mw=document.getElementById("modelw");
         var model=document.getElementById("model");
 
         ms.onclick=function(){
-            header.style.backgroundImage= "url(./image-1.png)"; 
+            header.style.backgroundImage= "url(./models.jpg)"; 
             model.innerHTML='Model S'
         }
-        ms.onclick=function(){
-            header.style.backgroundImage= "url(./image-2.png)";   
+        m3.onclick=function(){
+            header.style.backgroundImage= "url(./model3.jpg)";   
             model.innerHTML='Model 3'
         }
-        ms.onclick=function(){
-            header.style.backgroundImage= "url(./image-3.png)";  
+        mx.onclick=function(){
+            header.style.backgroundImage= "url(./modelx1.jpg)";  
             model.innerHTML='Model X' 
         }
-        ms.onclick=function(){
-            header.style.backgroundImage= "url(./image-4.png)";   
+        my.onclick=function(){
+            header.style.backgroundImage= "url(./modely.png)";   
             model.innerHTML='Model Y'
+        }
+        mz.onclick=function(){
+            header.style.backgroundImage= "url(./roadster.jpg)";   
+            model.innerHTML='Roadster'
+        }
+        mw.onclick=function(){
+            header.style.backgroundImage= "url(./cybertruck.jpg)";  
+            model.innerHTML='Cyber-Truck'
         }
 
     </script>
     
 </body>
-
 </html>
