@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300; 400; 500; 600&display=swap');
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
-.header{
+
+.header {
     width: 100%;
     height: 100vh;
     background-image: url(./models.jpg);
@@ -14,9 +16,13 @@ font-family: 'poppins', sans-serif;
     background-position: center;
     background-size: cover;
     padding: 0 7%;
-    
+    transition: 0.5s;
+
+
 }
-nav{
+
+nav {
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,34 +31,40 @@ nav{
     align-items: center;
 
 }
-.logo{
+
+.logo {
     width: 320px;
     cursor: pointer;
 }
-nav ul{
+
+nav ul {
     flex: 1;
     text-align: center;
 
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     margin: 10px 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    color: rgb(5, 5, 5);
+    color: rgb(255, 252, 252);
     font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
 }
-nav .btn{
-    color: rgb(7, 7, 7);
+
+nav .btn {
+    color: rgb(254, 250, 250);
     text-decoration: none;
-    border: 1px solid rgb(4, 4, 4);
+    border: 1px solid rgb(255, 255, 255);
     padding: 10px 30px;
     border-radius: 30px;
     margin-right: 7%;
 }
-.info{
+
+.info {
     width: 100%;
     padding: 0 7%;
     display: flex;
@@ -63,14 +75,17 @@ nav .btn{
     left: 0;
 
 }
-.info div{
+
+.info div {
     margin: 0 20px;
 }
-.info div h2{
+
+.info div h2 {
     font-size: 44px;
     font-weight: 400;
 }
-.info .line{
+
+.info .line {
     flex: 1;
     background: #fff;
     height: 4px;
