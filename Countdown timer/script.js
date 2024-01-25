@@ -48,3 +48,4 @@ function reset() {
     document.querySelector('#countdown-minutes').innerText = 0;
     document.querySelector('#countdown-seconds').innerText = 0;
 }
+/*---------------------------end --------------------*/
